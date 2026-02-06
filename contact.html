@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Oscar's Portfolio</title>
+    <link rel="stylesheet" href="oscar.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Oscar's Portfolio</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="childhood.html">Childhood</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills & Talents</a></li>
+                <li><a href="aspirations.html">Future Aspirations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <h1 class="fade-in">Get In Touch</h1>
+        <p>Let's connect and collaborate</p>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-intro">
+                <p>I'm always interested in connecting with fellow students, professionals, and anyone interested in technology and innovation. Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:ndegwaoscar9@gmail.com">ndegwaoscar9@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p><a href="#" target="_blank">linkedin.com/in/oscar-ndegwa</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💻</span>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p><a href="#" target="_blank">github.com/oscarndegwa</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🐦</span>
+                            <div>
+                                <h4>Twitter</h4>
+                                <p><a href="#" target="_blank">@oscar_ndegwa</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="availability">
+                        <h3>Availability</h3>
+                        <p>I'm currently open to:</p>
+                        <ul>
+                            <li>Internship opportunities</li>
+                            <li>Collaborative projects</li>
+                            <li>Networking and mentorship</li>
+                            <li>Freelance web development work</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send Me a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What's this about?">
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div id="formSuccess" class="success-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Oscar. All rights reserved.</p>
+    </footer>
+
+    <script src="oscar.js"></script>
+</body>
+</html>
